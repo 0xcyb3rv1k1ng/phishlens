@@ -1,0 +1,15 @@
+https://www.google.com/search?q=phishing+indicators
+https://github.com/consensys
+https://metamask.io/download/
+https://accounts.google.com/signin/v2/identifier
+http://192.168.1.10/login
+http://185.199.109.153/secure/login
+https://secure-paypal-login.xyz/account/verify
+https://paypal.com.security-login-update.top/auth
+https://login.secure.update.example.com/session
+https://tinyurl.com/2p8k9m3x
+https://xn--pple-43d.com/login
+https://mybank-verification-support.click/reset
+https://example.com/this/is/a/very/long/path/that/keeps/going/with/lots/of/segments/and/query?utm_source=email&utm_medium=phish&utm_campaign=urgent_action_required
+https://sub1.sub2.sub3.sub4.sub5.example.com/path
+https://secure-meta-login.com@evil.example.net/login
