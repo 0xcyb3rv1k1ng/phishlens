@@ -2,7 +2,7 @@
 
 PhishLens is a small, portfolio-ready Python CLI tool that scores URLs for phishing risk using **static, explainable heuristics** (no external lookups). It’s designed to be easy to demo in interviews for **Threat Intelligence / Security Analyst** roles.
 
-> ⚠️ Learning/demo tool: heuristic detection can produce false positives/negatives. Not production-grade.
+> ⚠️ Learning/demo tool: heuristic detection can produce false positives/negatives. Not a standalone detector.
 
 ---
 
