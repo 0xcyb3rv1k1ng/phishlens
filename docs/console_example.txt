@@ -1,0 +1,16 @@
+url	hostname	tld	risk_score	risk_level	indicator_codes
+https://www.google.com/search?q=phishing+indicators	www.google.com	.com	0	low	
+https://github.com/consensys	github.com	.com	0	low	
+https://metamask.io/download/	metamask.io	.io	0	low	
+https://accounts.google.com/signin/v2/identifier	accounts.google.com	.com	0	low	
+http://192.168.1.10/login	192.168.1.10	0.10	40	medium	IP_IN_URL,NO_HTTPS
+http://185.199.109.153/secure/login	185.199.109.153	0.153	40	medium	IP_IN_URL,NO_HTTPS
+https://secure-paypal-login.xyz/account/verify	secure-paypal-login.xyz	.xyz	50	medium	SUSPICIOUS_TLD,BRAND_IMPERSONATION
+https://paypal.com.security-login-update.top/auth	paypal.com.security-login-update.top	.top	50	medium	SUSPICIOUS_TLD,BRAND_IMPERSONATION
+https://login.secure.update.example.com/session	login.secure.update.example.com	.com	15	low	EXCESSIVE_SUBDOMAINS
+https://tinyurl.com/2p8k9m3x	tinyurl.com	.com	15	low	URL_SHORTENER
+https://xn--pple-43d.com/login	xn--pple-43d.com	.com	15	low	PUNYCODE_IDN
+https://mybank-verification-support.click/reset	mybank-verification-support.click	.click	50	medium	SUSPICIOUS_TLD,BRAND_IMPERSONATION
+https://example.com/this/is/a/very/long/path/that/keeps/going/with/lots/of/segments/and/query?utm_source=email&utm_medium=phish&utm_campaign=urgent_action_required	example.com	.com	10	low	LONG_URL
+https://sub1.sub2.sub3.sub4.sub5.example.com/path	sub1.sub2.sub3.sub4.sub5.example.com	.com	15	low	EXCESSIVE_SUBDOMAINS
+https://secure-meta-login.com@evil.example.net/login	evil.example.net	.net	20	low	AT_SYMBOL
